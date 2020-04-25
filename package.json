@@ -1,0 +1,21 @@
+{
+  "name": "sample-electron",
+  "version": "1.0.0",
+  "description": "Test Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack" : "electron-builder --dir",
+    "dist" : "electron-builder"
+  },
+  "author": "Jamesson Faria",
+  "license": "MIT",
+  "build": {
+    "asar": true,
+    "productName": "Test Electron"
+  },
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1"
+  }
+}
